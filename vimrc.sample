@@ -1,0 +1,157 @@
+"
+" General configuration options
+"
+
+" Use vim settings, rather than vi settings. 
+set nocompatible
+
+" Allow backspacing over indentation, line breaks and insertion start
+set backspace=indent,eol,start
+
+" Set bigger history
+set history=1000
+
+" Show incomplete commands of executed commands
+set showcmd
+
+" Show current mode at the bottom
+set showmode
+
+" Automatically re-read files if unmodified inside vim
+set autoread
+
+" Manage multiple buffer effectively : 
+" The current buffer can be 'sent' to the background without writing to disk
+" When a background buffer becomes current again marks and undo-history are
+" remembered.
+set hidden
+
+"
+" User interface options
+"
+
+" Always display the status bar
+set laststatus=2
+
+" Always show cursor position
+set ruler
+
+" Display command line's tab complete options as a menu
+set wildmenu
+
+" Maximum number of tab pages that can be opened from the command line
+set tabpagemax=40
+
+" Change color scheme
+colorscheme desert
+
+" highlight the cursor line
+set cursorline
+
+" Show line numbers on the sidebar
+set number
+
+" Show line numbers on the current line and relative numbers on all other line
+" Work only if the option number is enabled
+set relativenumber
+
+" Disable beep on errors
+set noerrorbells
+
+" Flash the screen instead of beeping on errors
+set visualbell
+
+" Enable mouse for scrolling and resizing
+set mouse=a
+
+" Use colors that suit a dark background
+set background=dark
+
+" Set window's title, reflecting the file currently being edited
+set title
+
+"
+" Swap and backup file options
+"
+set noswapfile
+set nobackup
+set nowb
+
+"
+" Indentation options
+"
+
+" New lines inherit the indentation of previous lines
+set autoindent
+
+" Smart auto indentation (instead of old smartindent option)
+filetype plugin indent on 
+
+" Show existing tab with 4 spaces width
+set tabstop=4
+
+" When indenting with '>', use 2 spaces width
+set shiftwidth=2
+
+" On pressing tab, insert 4 spaces
+set expandtab
+
+" Don't wrap lines
+set nowrap
+
+"
+" Search options
+"
+
+" Find the next match as we type search
+set incsearch
+
+" Highlight searches by default
+set hlsearch
+
+" Ignore case when searching
+set ignorecase
+
+" Ignore case when searching unless you type a capital
+set smartcase
+
+"
+" Text rendering options
+"
+
+" Use an encoding that support unicode
+set encoding=utf-8
+
+" Wrap lines at convenient points, avoid wrapping a line in the middle of a
+" word
+set linebreak
+
+" The number of screen lines to keep above and below the cursor
+set scrolloff=3
+
+" The number of screen columns to keep to the left and the right of the cursor
+set sidescrolloff=5
+
+" Enable syntax highlighting
+syntax enable
+
+"
+" Miscellaneous options
+"
+
+" Display a confirmation dialog when closing an unsaved file
+set confirm
+
+" Ignore file's mode lines, use vimrc configuration instead
+set nomodeline
+
+" Interpret octal as decimal when incrementing numbers
+set nrformats-=octal
+
+" The shell used to excute command
+set shell
+
+" Enable spellchecking
+set spell
+
+
