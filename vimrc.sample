@@ -30,9 +30,6 @@ set hidden
 " User interface options
 "
 
-" Always display the status bar
-set laststatus=2
-
 " Always show cursor position
 set ruler
 
@@ -153,5 +150,22 @@ set shell
 
 " Enable spellchecking
 set spell
+
+"
+" status bar
+"
+
+" show status line
+set laststatus=2 " 0 to disable
+
+set statusline=%t           " tail of the filename
+set statusline+=%{&ff}      " file format
+set statusline+=%h          " help file flag
+set statusline+=%m          " modified flag
+set statusline+=%r          " read only flag
+set statusline+=%y          " filetype
+set statusline+=%c,         " cursor column
+set statusline+=%l/%L       " cursor line/total lines
+set statusline+=\ %P        " percent through file
 
 
