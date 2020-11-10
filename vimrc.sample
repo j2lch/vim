@@ -31,7 +31,7 @@ set hidden
 "
 
 " Always show cursor position
-set ruler
+" set ruler
 
 " Display command line's tab complete options as a menu
 set wildmenu
@@ -43,14 +43,14 @@ set tabpagemax=40
 colorscheme desert
 
 " highlight the cursor line
-set cursorline
+" set cursorline
 
 " Show line numbers on the sidebar
-set number
+" set number
 
 " Show line numbers on the current line and relative numbers on all other line
 " Work only if the option number is enabled
-set relativenumber
+" set relativenumber
 
 " Disable beep on errors
 set noerrorbells
@@ -59,7 +59,7 @@ set noerrorbells
 set visualbell
 
 " Enable mouse for scrolling and resizing
-set mouse=a
+" set mouse=a
 
 " Use colors that suit a dark background
 set background=dark
@@ -146,10 +146,10 @@ set nomodeline
 set nrformats-=octal
 
 " The shell used to excute command
-set shell
+" set shell
 
 " Enable spellchecking
-set spell
+" set spell
 
 "
 " status bar
