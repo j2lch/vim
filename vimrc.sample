@@ -168,9 +168,18 @@ set statusline+=%c,         " cursor column
 set statusline+=%l/%L       " cursor line/total lines
 set statusline+=\ %P        " percent through file
 
+
+let g:airline_powerline_fonts = 1
+set ttimeoutlen=50
+set guifont=Source\ Code\ Pro\ for\ Powerline
+let g:airline#extensions#tabline#enabled = 1
+set t_Co=256
+
 "
-" netrw settings
+"netrw settings
 "
 
 " open file in previous split
 let g:netrw_browse_split=4
+let g:go_fmt_command = "goimports"
+let g:go_auto_type_info = 1
