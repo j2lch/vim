@@ -88,7 +88,7 @@ filetype plugin indent on
 set tabstop=4
 
 " When indenting with '>', use 2 spaces width
-set shiftwidth=2
+set shiftwidth=4
 
 " On pressing tab, insert 4 spaces
 set expandtab
