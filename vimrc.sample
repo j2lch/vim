@@ -40,7 +40,7 @@ set wildmenu
 set tabpagemax=40
 
 " Change color scheme
-colorscheme desert
+colorscheme default
 
 " highlight the cursor line
 " set cursorline
@@ -183,3 +183,5 @@ set t_Co=256
 let g:netrw_browse_split=4
 let g:go_fmt_command = "goimports"
 let g:go_auto_type_info = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_function_calls = 1
