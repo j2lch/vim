@@ -23,6 +23,7 @@ go: requirements
 	@git clone https://github.com/fatih/vim-go.git ~/.vim/pack/plugins/start/vim-go
 	@echo 'let g:go_fmt_command = "goimports"' >> vimrc.sample
 	@echo 'let g:go_auto_type_info = 1' >> vimrc.sample
+	@go get -v  golang.org/x/tools/cmd/godoc
 
 dotnet:	requirements
 	@echo "Installing Omnisharp-vim..."
