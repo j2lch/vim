@@ -4,7 +4,7 @@ requirements:
 	@echo "Creating home directories for vim..."
 	@mkdir -p ~/.vim/pack/plugins/start
 	@echo "copying .vimrc ..."
-	@test -f ~/.vimrc || @ ln -s ~/.vim/vimrc.sample ~/.vimrc
+	@test -f ~/.vimrc || ln -s ~/.vim/vimrc.sample ~/.vimrc
 	@echo "installing vim plugins"
 	@git clone https://github.com/vim-airline/vim-airline ~/.vim/pack/dist/start/vim-airline
 	@mkdir -p ~/.vim/pack/tpope/start
